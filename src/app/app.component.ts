@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'NGX_Feature_Toggle';
+  title = 'NGX Feature Toggle';
+
+  enableFirstText = true;
+  enableSecondText = true;
+  enableThirdText = true;
 }
